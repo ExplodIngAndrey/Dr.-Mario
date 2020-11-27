@@ -1,21 +1,16 @@
 import pygame
-from pygame import mixer
 
 # Initialize Pygame
 pygame.init()
 
 # Create the Screen
-screen = pygame.display.set_mode((769, 599))
+screen = pygame.display.set_mode((800, 600))
 
 # Background
-background = pygame.image.load('Background.jpg')
-
-# Background Sound
-mixer.music.load('CandyCrushMusic.wav')
-mixer.music.play(-1)
+background = pygame.image.load('Background.png')
 
 # Title and Icon
-pygame.display.set_caption('Candy Crush (Test)')
+pygame.display.set_caption('Dr. Mario')
 icon = pygame.image.load('Logo.png')
 pygame.display.set_icon(icon)
 
